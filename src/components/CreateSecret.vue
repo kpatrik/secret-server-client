@@ -53,3 +53,9 @@ export default {
 }
 </script>
 
+<style>
+  input {
+    margin: 5px;
+  }
+</style>
+
