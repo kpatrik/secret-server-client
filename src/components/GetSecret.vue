@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
-    <h1>Retrive your secret</h1>
+    <h1>Retrieve your secret</h1>
     <input v-model="hash" placeholder="hash">
-    <button v-on:click="onRetrive">Retrive secret</button>
+    <button v-on:click="onRetrive">Retrieve secret</button>
 
     <Response
       :hash="respHash"
